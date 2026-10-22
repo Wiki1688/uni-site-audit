@@ -1,6 +1,6 @@
 # Singapore Management University (SMU) · usability audit · 2026-10-22
 
-Pages read: home https://www.smu.edu.sg/ (bot_check_page, HTTP 200, 1390 ms, 1 KB) · admissions https://www.smu.edu.sg/admissions (bot_check_page, HTTP 200, 1056 ms, 1 KB)
+Pages read: home https://www.smu.edu.sg/ (bot_check_page, HTTP 200, 773 ms, 1 KB) · admissions https://www.smu.edu.sg/admissions (bot_check_page, HTTP 200, 858 ms, 1 KB)
 robots.txt: answered with an HTML page, not a rules file, so no rules apply.
 
 ## Heuristics

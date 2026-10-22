@@ -1,15 +1,15 @@
 # Nanyang Technological University (NTU) · usability audit · 2026-10-22
 
 
-Pages read: home https://www.ntu.edu.sg/ (ok, HTTP 200, 249 ms, 156 KB) ·
-admissions https://www.ntu.edu.sg/admissions (ok, HTTP 200, 275 ms, 140 KB)
+Pages read: home https://www.ntu.edu.sg/ (ok, HTTP 200, 266 ms, 156 KB) ·
+admissions https://www.ntu.edu.sg/admissions (ok, HTTP 200, 442 ms, 140 KB)
 robots.txt: read; both pages allowed for "*".
 
 ## Heuristics
 
 | # | Heuristic | Severity | Evidence from the HTML |
 |---|---|---|---|
-| 1 | Visibility of system status | 1 | `admissions:breadcrumbs.present` = true; `admissions:title` = "Admissions \| NTU Singapore"; `home:navigation.aria_current_count` = 0; `admissions:navigation.aria_current_count` = 0 (the menu does not mark the section you are in); `home:http.response_ms` = 249 |
+| 1 | Visibility of system status | 1 | `admissions:breadcrumbs.present` = true; `admissions:title` = "Admissions \| NTU Singapore"; `home:navigation.aria_current_count` = 0; `admissions:navigation.aria_current_count` = 0 (the menu does not mark the section you are in); `home:http.response_ms` = 266 |
 | 2 | Match between system and the real world | 1 | `home:navigation.landmarks.0.top_level_links` = ["About Us", "Admissions", "Education", "Research", "Innovation", "Life at NTU", "Alumni"] (plain words); `admissions:navigation.landmarks.1.top_level_links` = ["Corporate NTU", "Admissions"] (the breadcrumb starts with an internal-sounding label) |
 | 3 | User control and freedom | 1 | `home:navigation.home_links` = 2; `admissions:breadcrumbs.present` = true; `home:autoplay_media` = 0; `home:carousel_or_slider_hints` = 19 (sliders are present; whether they move on their own and can be paused needs a human check) |
 | 4 | Consistency and standards | 2 | `home:headings.h1_count` = 0; `admissions:headings.h1_count` = 0; `home:landmarks.main` = false; `home:links.empty_text` = 6; `home:images.missing_alt` = 0; `admissions:images.missing_alt` = 0 |

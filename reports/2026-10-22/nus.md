@@ -1,6 +1,6 @@
 # National University of Singapore (NUS) · usability audit · 2026-10-22
 
-Pages read: home https://www.nus.edu.sg/ (bot_check_page, HTTP 200, 828 ms, 1 KB) · admissions https://www.nus.edu.sg/admissions (bot_check_page, HTTP 200, 284 ms, 1 KB)
+Pages read: home https://www.nus.edu.sg/ (bot_check_page, HTTP 200, 181 ms, 1 KB) · admissions https://www.nus.edu.sg/admissions (bot_check_page, HTTP 200, 409 ms, 1 KB)
 robots.txt: answered with an HTML page, not a rules file, so no rules apply.
 
 ## Heuristics
