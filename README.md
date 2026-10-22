@@ -71,6 +71,6 @@ Audit of 2026-10-22 ([comparison](reports/2026-10-22/comparison.md))
 | Site | Heuristics judged | Total severity (lower is better) | Highest single severity | Report |
 |---|---|---|---|---|
 | NUS | 0 of 10 | 0 | none judged | [nus.md](reports/2026-10-22/nus.md) |
-| NTU | 0 of 10 | 0 | none judged | [ntu.md](reports/2026-10-22/ntu.md) |
+| NTU | 8 of 10 | 8 | 2 (Consistency and standards) | [ntu.md](reports/2026-10-22/ntu.md) |
 | SMU | 0 of 10 | 0 | none judged | [smu.md](reports/2026-10-22/smu.md) |
 <!-- scoreboard:end -->

@@ -1,27 +1,27 @@
 # Singapore Management University (SMU) · usability audit · 2026-10-22
 
-Pages read: home https://www.smu.edu.sg/ (network_error, no HTTP response, no data) · admissions https://www.smu.edu.sg/admissions (network_error, no HTTP response, no data)
-robots.txt: could not be read (Tunnel connection failed: 403 Forbidden), so no page on this host was fetched.
+Pages read: home https://www.smu.edu.sg/ (bot_check_page, HTTP 200, 1390 ms, 1 KB) · admissions https://www.smu.edu.sg/admissions (bot_check_page, HTTP 200, 1056 ms, 1 KB)
+robots.txt: answered with an HTML page, not a rules file, so no rules apply.
 
 ## Heuristics
 
 | # | Heuristic | Severity | Evidence from the HTML |
 |---|---|---|---|
-| 1 | Visibility of system status | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
-| 2 | Match between system and the real world | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
-| 3 | User control and freedom | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
-| 4 | Consistency and standards | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
-| 5 | Error prevention | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
-| 6 | Recognition rather than recall | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
-| 7 | Flexibility and efficiency of use | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
-| 8 | Aesthetic and minimalist design | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
-| 9 | Help users recognise, diagnose and recover from errors | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
-| 10 | Help and documentation | not judged | not judged from HTML: `home:outcome` = "network_error"; `admissions:outcome` = "network_error" |
+| 1 | Visibility of system status | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
+| 2 | Match between system and the real world | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
+| 3 | User control and freedom | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
+| 4 | Consistency and standards | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
+| 5 | Error prevention | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
+| 6 | Recognition rather than recall | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
+| 7 | Flexibility and efficiency of use | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
+| 8 | Aesthetic and minimalist design | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
+| 9 | Help users recognise, diagnose and recover from errors | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
+| 10 | Help and documentation | not judged | not judged from HTML: `home:outcome` = "bot_check_page"; `admissions:outcome` = "bot_check_page" |
 
 Severity: 0 no problem, 1 cosmetic, 2 minor, 3 major, 4 severe (see HEURISTICS.md). Lower is better.
 
 ## Three suggestions for the web team
-No suggestions this week. The connection to www.smu.edu.sg failed before any page could be read (`home:outcome` = "network_error"), so there was no evidence to judge. The audit records this and does not try another way in.
+No suggestions this week. Both pages answered with a bot-check page (`home:challenge.vendor` = "Imperva Incapsula") instead of their content, so there was no evidence to judge. The audit records this and does not try to get past it.
 
 ## Since last week
 First audit; nothing to compare yet.
